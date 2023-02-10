@@ -1,5 +1,5 @@
 package FamilyOOP;
 
-public interface PetOwner {
+public interface IPetOwner {
     void call();
 }

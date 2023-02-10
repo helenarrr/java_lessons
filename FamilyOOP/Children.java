@@ -1,6 +1,6 @@
 package FamilyOOP;
 
-class Children extends Human implements PetOwner {
+class Children extends Human implements IPetOwner {
     private String parents;
     private String name;
     int hunger() {

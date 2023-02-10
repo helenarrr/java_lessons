@@ -1,12 +1,14 @@
 package FamilyOOP;
 
+/**Это абстрактный класс животные*/
 abstract class Animal {
-    protected int type;
+    protected String type;
     protected int height;
     protected int weight;
-    protected int wool;
+    protected String wool;
 
+    /**Метод описывает какие звуки издает животное*/
     abstract void voice();
-
+    /**С помощью метода описывается специфичное для каждого вида движение животного*/
     abstract void gogo();
 }

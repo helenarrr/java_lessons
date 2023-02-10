@@ -11,6 +11,8 @@ abstract class Human{
     public String getFamilyStatus() {return familyStatus;}
     public String getHavingChildren() {return havingChildren;}
     abstract int go(int start);
+
+    /**Метод, показывающий семейный стутус каждого члена семьи, а именно выводит семейное положение, наличие детей и дополнительно возраст*/
     void showFamilyStatus() {
         int age = getAge();
         String status = getFamilyStatus();

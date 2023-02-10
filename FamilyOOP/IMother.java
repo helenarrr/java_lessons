@@ -1,8 +1,6 @@
 package FamilyOOP;
 
-import java.lang.annotation.Target;
-
-public interface Mother {
+public interface IMother {
     void cleanHome(int time);
     void bringUpChildren();
 }

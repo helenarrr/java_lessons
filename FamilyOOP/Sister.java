@@ -1,6 +1,6 @@
 package FamilyOOP;
 
-class Sister extends Human implements Mother, PetOwner {
+class Sister extends Human implements IMother, IPetOwner {
     private String SisAndBro;
     public String getSisAndBro() {return SisAndBro;}
 
