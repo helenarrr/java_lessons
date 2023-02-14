@@ -1,8 +1,17 @@
 package FamilyOOP;
 
 class Children extends Human implements IPetOwner {
-    private String parents;
-    private String name;
+    private final String name;
+
+    Children(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return this.name;
+    }
+
     int hunger() {
         return (int)(Math.random() * 9);
     }
