@@ -1,3 +1,5 @@
+package Lesson2;
+
 public class ExceptionProcessingPractice3 {
     public static void main(String[] args) {
         try {

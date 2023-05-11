@@ -1,3 +1,5 @@
+package Lesson2;
+
 public class ExceptionProcessingPractice2 {
 
     public static void someDo() {
